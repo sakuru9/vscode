@@ -1,0 +1,67 @@
+{
+  "window.zoomLevel": 1,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "extensions.ignoreRecommendations": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.statusBar.visible": true,
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Lilac",
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "git.suggestSmartCommit": false,
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#160c1d",
+    "activityBar.foreground": "#704ea7",
+    "editorGroupHeader.tabsBackground": "#160c1d",
+    "tab.inactiveBackground": "#160c1d",
+    "tab.border": "#160c1d",
+    "sideBar.background": "#160c1d",
+    "sideBarSectionHeader.background": "#160c1d"
+  },
+  "workbench.iconTheme": "city-lights-icons-vsc"
+}
