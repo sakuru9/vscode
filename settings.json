@@ -1,5 +1,5 @@
 {
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0.7,
   "git.confirmSync": false,
   "git.autofetch": true,
   "editor.tabSize": 2,
@@ -21,6 +21,7 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.statusBar.visible": true,
   "editor.renderWhitespace": "all",
+  "editor.fontFamily": "Roboto Mono medium",
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Lilac",
   "gitlens.gitCommands.closeOnFocusOut": true,
